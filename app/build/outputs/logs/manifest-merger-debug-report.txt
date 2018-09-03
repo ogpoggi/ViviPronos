@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d58ace34460fa5a58995d277dd19875\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ac10c0f481bb3fe47ab003cc4b63c7b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\fe661bd7e597b820d4b0f8a9a648b0f8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\3917eb13066baf4451ccddd0435921ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427358f834e1708c01373ce69a8f6450\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\317b5cfcf9cfec08d62430f92e986d88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\38a6dcefc17ad35f637e5acb9322375c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\21a9321362b3071aedad13df8154a925\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2986310cf903dc5b07e157e172b1b61a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\3ef35123b0f83b2eb0c175cdd742b007\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\58df23e9a4aa52aded3f0eef840a1c69\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ada8d0ccadb21ba56c0b177f5bdd0d5e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\316dab094dd2b84d6b45f5df4f0efa32\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\451e8a52b9deb0da2d2ae0526545eace\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a6418960632077e6623dc702c16b7f4b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\95d765f96852b0befcbbebb94a16cf87\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\64c87f3e8cc3857011a8c2caa0890480\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\123c91e25f225693304c6e919fb56b6c\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:3:5-59
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\fe661bd7e597b820d4b0f8a9a648b0f8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\fe661bd7e597b820d4b0f8a9a648b0f8\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:13:9-40
+activity#net.simplifiedcoding.retrofitandroidtutorial.activities.MainActivity
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:14:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:18:27-74
+activity#net.simplifiedcoding.retrofitandroidtutorial.activities.LoginActivity
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:21:9-62
+	android:name
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:21:19-59
+activity#net.simplifiedcoding.retrofitandroidtutorial.activities.ProfileActivity
+ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:22:9-73
+	android:name
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml:22:19-61
+uses-sdk
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d58ace34460fa5a58995d277dd19875\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6d58ace34460fa5a58995d277dd19875\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ac10c0f481bb3fe47ab003cc4b63c7b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ac10c0f481bb3fe47ab003cc4b63c7b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\fe661bd7e597b820d4b0f8a9a648b0f8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\fe661bd7e597b820d4b0f8a9a648b0f8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\3917eb13066baf4451ccddd0435921ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\3917eb13066baf4451ccddd0435921ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427358f834e1708c01373ce69a8f6450\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\427358f834e1708c01373ce69a8f6450\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\317b5cfcf9cfec08d62430f92e986d88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\317b5cfcf9cfec08d62430f92e986d88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\38a6dcefc17ad35f637e5acb9322375c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\38a6dcefc17ad35f637e5acb9322375c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\21a9321362b3071aedad13df8154a925\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\21a9321362b3071aedad13df8154a925\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2986310cf903dc5b07e157e172b1b61a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2986310cf903dc5b07e157e172b1b61a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\3ef35123b0f83b2eb0c175cdd742b007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\3ef35123b0f83b2eb0c175cdd742b007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\58df23e9a4aa52aded3f0eef840a1c69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\58df23e9a4aa52aded3f0eef840a1c69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ada8d0ccadb21ba56c0b177f5bdd0d5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ada8d0ccadb21ba56c0b177f5bdd0d5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\316dab094dd2b84d6b45f5df4f0efa32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\316dab094dd2b84d6b45f5df4f0efa32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\451e8a52b9deb0da2d2ae0526545eace\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\451e8a52b9deb0da2d2ae0526545eace\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a6418960632077e6623dc702c16b7f4b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a6418960632077e6623dc702c16b7f4b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\95d765f96852b0befcbbebb94a16cf87\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\95d765f96852b0befcbbebb94a16cf87\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\64c87f3e8cc3857011a8c2caa0890480\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\64c87f3e8cc3857011a8c2caa0890480\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\123c91e25f225693304c6e919fb56b6c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\basti\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\123c91e25f225693304c6e919fb56b6c\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\basti\Downloads\ViviPronos\app\src\main\AndroidManifest.xml
