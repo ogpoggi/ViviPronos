@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 LoginResponse loginResponse = response.body();
-
+                Log.d("test",String.valueOf(loginResponse));
                 if (!loginResponse.isError()) {
 
                     SharedPrefManager.getInstance(LoginActivity.this)

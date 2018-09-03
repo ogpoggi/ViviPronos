@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
 
-    private static final String BASE_URL = "http://bpoggifrpw.cluster026.hosting.ovh.net/Android/ViviPronos/public/";
+    private static final String BASE_URL = "http://bpoggifrpw.cluster026.hosting.ovh.net/Android/ViviPronos/public/index.php/";
     private static RetrofitClient mInstance;
     private Retrofit retrofit;
 
