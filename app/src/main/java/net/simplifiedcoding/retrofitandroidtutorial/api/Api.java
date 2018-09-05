@@ -2,6 +2,7 @@ package net.simplifiedcoding.retrofitandroidtutorial.api;
 
 import net.simplifiedcoding.retrofitandroidtutorial.models.DefaultResponse;
 import net.simplifiedcoding.retrofitandroidtutorial.models.LoginResponse;
+import net.simplifiedcoding.retrofitandroidtutorial.models.PronosResponse;
 import net.simplifiedcoding.retrofitandroidtutorial.models.UsersResponse;
 
 import retrofit2.Call;
@@ -15,6 +16,7 @@ import retrofit2.http.Path;
 
 public interface Api {
 
+    // PARTIE USER
 
     @FormUrlEncoded
     @POST("createuser")
@@ -52,5 +54,22 @@ public interface Api {
 
     @DELETE("deleteuser/{id}")
     Call<DefaultResponse> deleteUser(@Path("id") int id);
+    // ---------------------------------------------------------------- //
 
+    // PARTIE PRONOS
+
+    @FormUrlEncoded
+    @POST("createpronos")
+    Call<DefaultResponse> createPronos(
+            @Field("equipe1") String equipe1,
+            @Field("equipe2") String equipe2,
+            @Field("cote1") Float cote1,
+            @Field("cote2") Float cote2,
+            @Field("matchNull") String matchNull
+    );
+
+    @GET("allpronos")
+    Call<PronosResponse> getPronos();
+
+    // -------------------------------------------------------------- //
 }

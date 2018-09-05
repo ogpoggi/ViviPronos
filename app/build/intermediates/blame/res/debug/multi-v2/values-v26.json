@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\basti\\Downloads\\ViviPronos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\basti\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\6d58ace34460fa5a58995d277dd19875\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\08f6c44adbda26602cbfce94f8405601\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\basti\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ac10c0f481bb3fe47ab003cc4b63c7b3\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

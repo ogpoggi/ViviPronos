@@ -45,7 +45,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UsersViewHol
 
     class UsersViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textViewName, textViewEmail, textViewSchool;
+        TextView textViewName, textViewEmail;
 
         public UsersViewHolder(View itemView) {
             super(itemView);

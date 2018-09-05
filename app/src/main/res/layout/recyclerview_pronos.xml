@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/textViewEquipe1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bastien Poggi"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/textViewEquipe2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bastien Poggi"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/textViewCote1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bastien POGGI"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:id="@+id/textViewCote2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bastien POGGI"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:id="@+id/textViewCoteNull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bastien POGGI"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
