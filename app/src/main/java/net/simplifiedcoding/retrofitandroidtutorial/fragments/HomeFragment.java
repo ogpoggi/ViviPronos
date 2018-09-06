@@ -1,28 +1,32 @@
 package net.simplifiedcoding.retrofitandroidtutorial.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import net.simplifiedcoding.retrofitandroidtutorial.ItemClickListener;
 import net.simplifiedcoding.retrofitandroidtutorial.R;
 import net.simplifiedcoding.retrofitandroidtutorial.adapters.PronosAdapter;
 import net.simplifiedcoding.retrofitandroidtutorial.api.RetrofitClient;
 import net.simplifiedcoding.retrofitandroidtutorial.models.Pronos;
 import net.simplifiedcoding.retrofitandroidtutorial.models.PronosResponse;
-
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements ItemClickListener{
 
     private RecyclerView recyclerViewp;
     private PronosAdapter adapter;
@@ -50,6 +54,7 @@ public class HomeFragment extends Fragment {
                 pronosList = response.body().getPronos();
                 adapter = new PronosAdapter(getActivity(), pronosList);
                 recyclerViewp.setAdapter(adapter);
+                adapter.setClickListener();
             }
 
             @Override
@@ -57,6 +62,11 @@ public class HomeFragment extends Fragment {
 
             }
         });
+    }
 
+    @Override
+    public void onClick(View view, int position) {
+        final Pronos pronos = pronosList.get(position);
+        Toast.makeText(getContext(),position,Toast.LENGTH_SHORT).show();
     }
 }

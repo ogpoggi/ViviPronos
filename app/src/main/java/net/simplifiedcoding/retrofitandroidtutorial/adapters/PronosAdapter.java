@@ -3,11 +3,15 @@ package net.simplifiedcoding.retrofitandroidtutorial.adapters;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.view.GestureDetector;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import net.simplifiedcoding.retrofitandroidtutorial.ItemClickListener;
 import net.simplifiedcoding.retrofitandroidtutorial.R;
 import net.simplifiedcoding.retrofitandroidtutorial.models.Pronos;
 
@@ -17,6 +21,7 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
 
     private Context mCtx;
     private List<Pronos> pronosList;
+    private ItemClickListener clickListener;
 
     public PronosAdapter(Context mCtx, List<Pronos> pronosList) {
         this.mCtx = mCtx;
@@ -46,7 +51,11 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
         return pronosList.size();
     }
 
-    class PronosViewHolder extends RecyclerView.ViewHolder {
+    public void setClickListener(ItemClickListener itemClickListener) {
+        this.clickListener = itemClickListener;
+    }
+
+    class PronosViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         TextView textViewEquipe1, textViewEquipe2, textViewCote1,textViewCote2,textViewCoteNull;
 
@@ -58,6 +67,13 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
             textViewCote1 = itemView.findViewById(R.id.textViewCote1);
             textViewCote2 = itemView.findViewById(R.id.textViewCote2);
             textViewCoteNull = itemView.findViewById(R.id.textViewCoteNull);
+            itemView.setOnClickListener(this);
+        }
+        @Override
+        public void onClick(View view) {
+            if (clickListener != null) clickListener.onClick(view, getAdapterPosition());
         }
     }
 }
+
+
