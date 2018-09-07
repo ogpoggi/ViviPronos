@@ -1,21 +1,20 @@
 package net.simplifiedcoding.retrofitandroidtutorial.fragments;
 
-import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import net.simplifiedcoding.retrofitandroidtutorial.ItemClickListener;
 import net.simplifiedcoding.retrofitandroidtutorial.R;
+import net.simplifiedcoding.retrofitandroidtutorial.RecyclerViewClickListener;
 import net.simplifiedcoding.retrofitandroidtutorial.adapters.PronosAdapter;
 import net.simplifiedcoding.retrofitandroidtutorial.api.RetrofitClient;
 import net.simplifiedcoding.retrofitandroidtutorial.models.Pronos;
@@ -26,7 +25,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class HomeFragment extends Fragment implements ItemClickListener{
+public class HomeFragment extends Fragment{
 
     private RecyclerView recyclerViewp;
     private PronosAdapter adapter;
@@ -50,11 +49,33 @@ public class HomeFragment extends Fragment implements ItemClickListener{
         call.enqueue(new Callback<PronosResponse>() {
             @Override
             public void onResponse(Call<PronosResponse> call, Response<PronosResponse> response) {
-
                 pronosList = response.body().getPronos();
-                adapter = new PronosAdapter(getActivity(), pronosList);
+                RecyclerViewClickListener listener = (view, position) -> {
+                    AlertDialog.Builder builder1 = new AlertDialog.Builder(getContext());
+                    builder1.setMessage("Write your message here.");
+                    builder1.setCancelable(true);
+                    builder1.setPositiveButton(
+                            "Yes",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+
+                    builder1.setNegativeButton(
+                            "No",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+
+                    AlertDialog alert11 = builder1.create();
+                    alert11.show();
+                    Toast.makeText(getContext(), "Position " + position, Toast.LENGTH_SHORT).show();
+                };
+                adapter = new PronosAdapter(getActivity(), pronosList,listener);
                 recyclerViewp.setAdapter(adapter);
-                adapter.setClickListener();
             }
 
             @Override
@@ -62,11 +83,5 @@ public class HomeFragment extends Fragment implements ItemClickListener{
 
             }
         });
-    }
-
-    @Override
-    public void onClick(View view, int position) {
-        final Pronos pronos = pronosList.get(position);
-        Toast.makeText(getContext(),position,Toast.LENGTH_SHORT).show();
     }
 }
