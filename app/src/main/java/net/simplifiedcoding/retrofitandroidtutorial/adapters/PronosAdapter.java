@@ -1,11 +1,14 @@
 package net.simplifiedcoding.retrofitandroidtutorial.adapters;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import net.simplifiedcoding.retrofitandroidtutorial.RecyclerViewClickListener;
@@ -45,6 +48,14 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
         holder.textViewCote1.setText(String.valueOf(pronos.getCote1()));
         holder.textViewCote2.setText(String.valueOf(pronos.getCote2()));
         holder.textViewCoteNull.setText(String.valueOf(pronos.getMatchNull()));
+        switch(pronos.getStatut()) {
+            case "gagne":
+                holder.cv_pronos_item.setBackgroundColor(Color.GREEN);
+                break;
+            case "perdu":
+                holder.cv_pronos_item.setBackgroundColor(Color.RED);
+                break;
+        }
     }
 
     @Override
@@ -55,6 +66,8 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
     class PronosViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         TextView textViewEquipe1, textViewEquipe2, textViewCote1,textViewCote2,textViewCoteNull;
+        CardView cv_pronos_item;
+        Button btn_select_pronos;
         private RecyclerViewClickListener mListener;
 
         public PronosViewHolder(View itemView, RecyclerViewClickListener listener) {
@@ -65,7 +78,10 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
             textViewCote1 = itemView.findViewById(R.id.textViewCote1);
             textViewCote2 = itemView.findViewById(R.id.textViewCote2);
             textViewCoteNull = itemView.findViewById(R.id.textViewCoteNull);
+            cv_pronos_item = itemView.findViewById(R.id.cv_pronos_item);
+            btn_select_pronos = itemView.findViewById(R.id.btn_select_pronos);
             mListener = listener;
+            btn_select_pronos.setOnClickListener(this);
             itemView.setOnClickListener(this);
         }
         @Override

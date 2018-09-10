@@ -12,12 +12,12 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.36.0.aar\\ad96d6f80dded307ed36424ad426051b\\res\\drawable-xhdpi-v4\\com_facebook_close.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\551e5046805f619a2005452214b4ed95\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_com_facebook_tooltip_bubble.xml.flat",
@@ -48,16 +48,16 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\08f6c44adbda26602cbfce94f8405601\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5881aac15885e1c4dcaa7ba0960eba75\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_com_facebook_profile_picture_blank_portrait.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.36.0.aar\\d6280670d759c50c2fd7263cb328e3ed\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5881aac15885e1c4dcaa7ba0960eba75\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
@@ -68,20 +68,20 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.36.0.aar\\d6280670d759c50c2fd7263cb328e3ed\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5881aac15885e1c4dcaa7ba0960eba75\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\551e5046805f619a2005452214b4ed95\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\551e5046805f619a2005452214b4ed95\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5881aac15885e1c4dcaa7ba0960eba75\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_com_facebook_button_send_icon_blue.png.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-share-4.36.0.aar\\8fd418570d2fa4d8000959c0e9cd9afa\\res\\drawable-mdpi-v4\\com_facebook_button_send_icon_blue.png"
-    },
-    {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com_facebook_button_send_background.xml.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-share-4.36.0.aar\\8fd418570d2fa4d8000959c0e9cd9afa\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_com_facebook_button_send_icon_blue.png.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-share-4.36.0.aar\\8fd418570d2fa4d8000959c0e9cd9afa\\res\\drawable-mdpi-v4\\com_facebook_button_send_icon_blue.png"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -132,16 +132,16 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-messenger-4.36.0.aar\\5c4a26fa71e129278ee968b73582e8de\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_email.png.flat",
@@ -156,28 +156,28 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.36.0.aar\\d6280670d759c50c2fd7263cb328e3ed\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_messenger_bubble_large_white.png.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-messenger-4.36.0.aar\\5c4a26fa71e129278ee968b73582e8de\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
-    },
-    {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\551e5046805f619a2005452214b4ed95\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_messenger_bubble_large_white.png.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-messenger-4.36.0.aar\\5c4a26fa71e129278ee968b73582e8de\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com_facebook_auth_dialog_cancel_background.xml.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.36.0.aar\\ad96d6f80dded307ed36424ad426051b\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_name.png.flat",
         "source": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_name.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com_facebook_auth_dialog_cancel_background.xml.flat",
+        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.36.0.aar\\ad96d6f80dded307ed36424ad426051b\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_fragment.xml.flat",
@@ -386,6 +386,10 @@
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_tool_bar.xml.flat",
+        "source": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\src\\main\\res\\layout\\tool_bar.xml"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
@@ -1324,6 +1328,10 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_stats.xml.flat",
+        "source": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\src\\main\\res\\layout\\fragment_stats.xml"
+    },
+    {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5881aac15885e1c4dcaa7ba0960eba75\\res\\layout-v21\\notification_template_icon_group.xml"
     },
@@ -1912,6 +1920,10 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.36.0.aar\\ad96d6f80dded307ed36424ad426051b\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
     },
     {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stats.xml.flat",
+        "source": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\src\\main\\res\\layout\\activity_stats.xml"
+    },
+    {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable\\abc_edit_text_material.xml"
     },
@@ -2158,6 +2170,10 @@
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\menu_toolbar_menu.xml.flat",
+        "source": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\src\\main\\res\\menu\\toolbar_menu.xml"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",

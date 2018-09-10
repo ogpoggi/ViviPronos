@@ -29,6 +29,10 @@
         <activity android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.LoginActivity" />
         <activity android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.ProfileActivity" />
         <activity
+            android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.StatsActivity"
+            android:label="@string/title_activity_stats"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/com_facebook_activity_theme" />

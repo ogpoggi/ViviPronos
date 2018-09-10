@@ -3,6 +3,8 @@ package net.simplifiedcoding.retrofitandroidtutorial.api;
 import net.simplifiedcoding.retrofitandroidtutorial.models.DefaultResponse;
 import net.simplifiedcoding.retrofitandroidtutorial.models.LoginResponse;
 import net.simplifiedcoding.retrofitandroidtutorial.models.PronosResponse;
+import net.simplifiedcoding.retrofitandroidtutorial.models.SelectPronos;
+import net.simplifiedcoding.retrofitandroidtutorial.models.SelectPronosResponse;
 import net.simplifiedcoding.retrofitandroidtutorial.models.UsersResponse;
 
 import retrofit2.Call;
@@ -60,7 +62,7 @@ public interface Api {
 
     @FormUrlEncoded
     @POST("createpronos")
-    Call<DefaultResponse> createPronos(
+    Call<PronosResponse> createPronos(
             @Field("equipe1") String equipe1,
             @Field("equipe2") String equipe2,
             @Field("cote1") Float cote1,
@@ -72,4 +74,17 @@ public interface Api {
     Call<PronosResponse> getPronos();
 
     // -------------------------------------------------------------- //
+
+    @FormUrlEncoded
+    @POST("pronoselectbyuser")
+    Call<SelectPronosResponse> getPronosSelectByUser(
+            @Field("idUser") int idUser
+    );
+
+    @FormUrlEncoded
+    @POST("createselectpronos")
+    Call<SelectPronosResponse> createSelectPronos(
+            @Field("idPronos") int idPronos,
+            @Field("idUser") int idUser
+    );
 }

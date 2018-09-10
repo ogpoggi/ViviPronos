@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.android.support:design:27.0.2] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\08f6c44adbda26602cbfce94f8405601\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-android-sdk:4.36.0] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.36.0.aar\d5f72d21048b556ff2fb2610ae8af4ff\AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-login:4.36.0] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\facebook-login-4.36.0.aar\d6280670d759c50c2fd7263cb328e3ed\AndroidManifest.xml:21:1-31:12
@@ -35,20 +35,20 @@ MERGED from [com.android.support:customtabs:27.0.2] C:\Users\INNAX\.gradle\cache
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\3f046c7a87f438f0649cfd8b344359be\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5881aac15885e1c4dcaa7ba0960eba75\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\6d425e3b0ef2c9eacacd5765bbcde1a3\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:3:5-59
 		INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:2:11-69
@@ -57,7 +57,7 @@ ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:7:5-23:19
+ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:7:5-27:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.36.0] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.36.0.aar\d5f72d21048b556ff2fb2610ae8af4ff\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.36.0] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.36.0.aar\d5f72d21048b556ff2fb2610ae8af4ff\AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:4.36.0] C:\Users\INNAX\.gradle\caches\transforms-1\files-1.1\facebook-login-4.36.0.aar\d6280670d759c50c2fd7263cb328e3ed\AndroidManifest.xml:28:5-29:19
@@ -117,9 +117,17 @@ ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:21:19-59
 activity#net.simplifiedcoding.retrofitandroidtutorial.activities.ProfileActivity
-ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:22:9-73
+ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:22:9-64
 	android:name
 		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:22:19-61
+activity#net.simplifiedcoding.retrofitandroidtutorial.activities.StatsActivity
+ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:23:9-26:56
+	android:label
+		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:25:13-57
+	android:theme
+		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:26:13-44
+	android:name
+		ADDED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml:24:13-53
 uses-sdk
 INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\INNAX\Desktop\Bastien\ViviPronos\app\src\main\AndroidManifest.xml

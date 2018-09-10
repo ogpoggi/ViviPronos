@@ -11,14 +11,21 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toast;
 
 import net.simplifiedcoding.retrofitandroidtutorial.R;
 import net.simplifiedcoding.retrofitandroidtutorial.RecyclerViewClickListener;
+import net.simplifiedcoding.retrofitandroidtutorial.activities.MainActivity;
 import net.simplifiedcoding.retrofitandroidtutorial.adapters.PronosAdapter;
 import net.simplifiedcoding.retrofitandroidtutorial.api.RetrofitClient;
+import net.simplifiedcoding.retrofitandroidtutorial.models.DefaultResponse;
 import net.simplifiedcoding.retrofitandroidtutorial.models.Pronos;
 import net.simplifiedcoding.retrofitandroidtutorial.models.PronosResponse;
+import net.simplifiedcoding.retrofitandroidtutorial.models.SelectPronosResponse;
+import net.simplifiedcoding.retrofitandroidtutorial.models.User;
+import net.simplifiedcoding.retrofitandroidtutorial.storage.SharedPrefManager;
+
 import java.util.List;
 
 import retrofit2.Call;
@@ -30,6 +37,8 @@ public class HomeFragment extends Fragment{
     private RecyclerView recyclerViewp;
     private PronosAdapter adapter;
     private List<Pronos> pronosList;
+    private String statut;
+    private String newline = System.getProperty("line.separator");
 
     @Nullable
     @Override
@@ -50,29 +59,49 @@ public class HomeFragment extends Fragment{
             @Override
             public void onResponse(Call<PronosResponse> call, Response<PronosResponse> response) {
                 pronosList = response.body().getPronos();
+
                 RecyclerViewClickListener listener = (view, position) -> {
-                    AlertDialog.Builder builder1 = new AlertDialog.Builder(getContext());
-                    builder1.setMessage("Write your message here.");
-                    builder1.setCancelable(true);
-                    builder1.setPositiveButton(
-                            "Yes",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            });
+                    switch (pronosList.get(position).getStatut()){
+                        case "gagne" :
+                            statut = "Ce prono est gagné";
+                            break;
+                        case "perdu" :
+                            statut = "Ce prono est perdu";
+                            break;
+                        default:
+                            statut = "Le statut de ce Prono sera mis à jour à la fin du match";
+                            break;
+                    }
+                    if(view instanceof Button){
+                        User user = SharedPrefManager.getInstance(getActivity()).getUser();
+                        Call<SelectPronosResponse> callCreateSelectPronos = RetrofitClient.getInstance().getApi().createSelectPronos(pronosList.get(position).getId(),user.getId());
+                        callCreateSelectPronos.enqueue(new Callback<SelectPronosResponse>() {
+                            @Override
+                            public void onResponse(Call<SelectPronosResponse> call, Response<SelectPronosResponse> response) {
+                                SelectPronosResponse spr = response.body();
+                                Toast.makeText(getContext(), spr.getMessage(), Toast.LENGTH_LONG).show();
+                            }
 
-                    builder1.setNegativeButton(
-                            "No",
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            });
+                            @Override
+                            public void onFailure(Call<SelectPronosResponse> call, Throwable t) {
 
-                    AlertDialog alert11 = builder1.create();
-                    alert11.show();
-                    Toast.makeText(getContext(), "Position " + position, Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+                    else {
+                        AlertDialog.Builder builder1 = new AlertDialog.Builder(getContext());
+                        builder1.setMessage("Résultat : " + pronosList.get(position).getResultat() + newline + newline + statut);
+                        builder1.setCancelable(true);
+                        builder1.setPositiveButton(
+                                "Vu",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int id) {
+                                        dialog.cancel();
+                                    }
+                                });
+                        AlertDialog alert11 = builder1.create();
+                        alert11.show();
+                    }
                 };
                 adapter = new PronosAdapter(getActivity(), pronosList,listener);
                 recyclerViewp.setAdapter(adapter);

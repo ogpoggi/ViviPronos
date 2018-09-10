@@ -2,16 +2,18 @@ package net.simplifiedcoding.retrofitandroidtutorial.models;
 
 public class Pronos {
     private int id;
-    private String equipe1, equipe2;
+    private String equipe1, equipe2 ,resultat, statut;
     private Float cote1, cote2, matchNull;
 
-    public Pronos(int id, String equipe1, String equipe2, Float cote1, Float cote2, Float matchNull) {
+    public Pronos(int id, String equipe1, String equipe2, Float cote1, Float cote2, Float matchNull, String resultat, String statut) {
         this.id = id;
         this.equipe1 = equipe1;
         this.equipe2 = equipe2;
         this.cote1 = cote1;
         this.cote2 = cote2;
         this.matchNull = matchNull;
+        this.resultat = resultat;
+        this.statut = statut;
     }
 
     public int getId() {
@@ -37,4 +39,8 @@ public class Pronos {
     public Float getMatchNull() {
         return matchNull;
     }
+
+    public String getResultat(){return resultat;}
+
+    public String getStatut(){return statut;}
 }
