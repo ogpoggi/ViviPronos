@@ -68,14 +68,16 @@ public class StatsActivity extends AppCompatActivity {
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
         User user = SharedPrefManager.getInstance(this).getUser();
-        Call<SelectPronosResponse> callSelectPronos = RetrofitClient.getInstance().getApi().getPronosSelectByUser(user.getId());
+
+        Call<SelectPronosResponse> callSelectPronos = RetrofitClient.getInstance().getApi().getSelectPronos(user.getId());
+
         callSelectPronos.enqueue(new Callback<SelectPronosResponse>() {
             @Override
-            public void onResponse(Call<SelectPronosResponse> call, Response<SelectPronosResponse> response) {
+            public void onResponse(Call<SelectPronosResponse> callSelectPronos, Response<SelectPronosResponse> response) {
                 selectPronosList = response.body().getSelectPronos();
             }
             @Override
-            public void onFailure(Call<SelectPronosResponse> call, Throwable t) {
+            public void onFailure(Call<SelectPronosResponse> callSelectPronos, Throwable t) {
 
             }
         });

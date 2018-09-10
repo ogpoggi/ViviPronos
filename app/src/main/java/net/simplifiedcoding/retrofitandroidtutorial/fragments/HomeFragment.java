@@ -78,8 +78,7 @@ public class HomeFragment extends Fragment{
                         callCreateSelectPronos.enqueue(new Callback<SelectPronosResponse>() {
                             @Override
                             public void onResponse(Call<SelectPronosResponse> call, Response<SelectPronosResponse> response) {
-                                SelectPronosResponse spr = response.body();
-                                Toast.makeText(getContext(), spr.getMessage(), Toast.LENGTH_LONG).show();
+
                             }
 
                             @Override

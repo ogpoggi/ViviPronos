@@ -77,7 +77,7 @@ public interface Api {
 
     @FormUrlEncoded
     @POST("pronoselectbyuser")
-    Call<SelectPronosResponse> getPronosSelectByUser(
+    Call<SelectPronosResponse> getSelectPronos(
             @Field("idUser") int idUser
     );
 
