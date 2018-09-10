@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,8 +18,20 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.widget.Toast;
 
 import net.simplifiedcoding.retrofitandroidtutorial.R;
+import net.simplifiedcoding.retrofitandroidtutorial.api.RetrofitClient;
+import net.simplifiedcoding.retrofitandroidtutorial.models.SelectPronos;
+import net.simplifiedcoding.retrofitandroidtutorial.models.SelectPronosResponse;
+import net.simplifiedcoding.retrofitandroidtutorial.models.User;
+import net.simplifiedcoding.retrofitandroidtutorial.storage.SharedPrefManager;
+
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class StatsActivity extends AppCompatActivity {
 
@@ -37,6 +50,8 @@ public class StatsActivity extends AppCompatActivity {
      */
     private ViewPager mViewPager;
 
+    private List<SelectPronos> selectPronosList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,22 +67,20 @@ public class StatsActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
+        User user = SharedPrefManager.getInstance(this).getUser();
+        Call<SelectPronosResponse> callSelectPronos = RetrofitClient.getInstance().getApi().getPronosSelectByUser(user.getId());
+        callSelectPronos.enqueue(new Callback<SelectPronosResponse>() {
+            @Override
+            public void onResponse(Call<SelectPronosResponse> call, Response<SelectPronosResponse> response) {
+                selectPronosList = response.body().getSelectPronos();
+            }
+            @Override
+            public void onFailure(Call<SelectPronosResponse> call, Throwable t) {
 
-        /*User user = SharedPrefManager.getInstance(getActivity()).getUser();
-          Call<SelectPronosResponse> callSelectPronos = RetrofitClient.getInstance().getApi().getPronosSelectByUser(user.getId());
-          callSelectPronos.enqueue(new Callback<SelectPronosResponse>() {
-              @Override
-              public void onResponse(Call<SelectPronosResponse> call, Response<SelectPronosResponse> response) {
-                   SelectPronosResponse spr = response.body();
-                   Toast.makeText(getContext(), spr.getMessage(), Toast.LENGTH_LONG).show();
-              }
-              @Override
-              public void onFailure(Call<SelectPronosResponse> call, Throwable t) {
+            }
+        });
 
-              }
-          });*/
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

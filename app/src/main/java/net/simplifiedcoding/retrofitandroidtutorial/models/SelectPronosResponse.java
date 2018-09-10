@@ -1,12 +1,14 @@
 package net.simplifiedcoding.retrofitandroidtutorial.models;
 
+import java.util.List;
+
 public class SelectPronosResponse {
 
     private boolean error;
     private String message;
-    private SelectPronos selectPronos;
+    private List<SelectPronos> selectPronos;
 
-    public SelectPronosResponse(boolean error, String message, SelectPronos selectPronos) {
+    public SelectPronosResponse(boolean error, String message, List<SelectPronos> selectPronos) {
         this.error = error;
         this.message = message;
         this.selectPronos = selectPronos;
@@ -20,7 +22,7 @@ public class SelectPronosResponse {
         return message;
     }
 
-    public SelectPronos getSelectPronos() {
+    public List<SelectPronos> getSelectPronos() {
         return selectPronos;
     }
 
