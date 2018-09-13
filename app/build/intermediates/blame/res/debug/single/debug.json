@@ -940,10 +940,6 @@
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5881aac15885e1c4dcaa7ba0960eba75\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -1326,10 +1322,6 @@
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\INNAX\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\275d9944612f7ecc816719c420e9f51f\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_stats.xml.flat",
-        "source": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\src\\main\\res\\layout\\fragment_stats.xml"
     },
     {
         "merged": "C:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",

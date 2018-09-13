@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,7 +17,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.MainActivity" >
             <intent-filter>
@@ -28,10 +27,7 @@
         </activity>
         <activity android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.LoginActivity" />
         <activity android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.ProfileActivity" />
-        <activity
-            android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.StatsActivity"
-            android:label="@string/title_activity_stats"
-            android:theme="@style/AppTheme" />
+        <activity android:name="net.simplifiedcoding.retrofitandroidtutorial.activities.StatsActivity" />
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
