@@ -1,12 +1,15 @@
 package net.simplifiedcoding.retrofitandroidtutorial.activities;
 
+import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import net.simplifiedcoding.retrofitandroidtutorial.R;
 import net.simplifiedcoding.retrofitandroidtutorial.api.RetrofitClient;
@@ -24,7 +27,9 @@ import retrofit2.Response;
 public class StatsActivity extends AppCompatActivity {
 
     private ProgressBar pb_gains, pb_pertes;
-    private int pb_pertes_compteur = 0, pb_gains_compteur = 0, i = 0;
+    private int pb_pertes_compteur = 0;
+    private int pb_gains_compteur = 0;
+    private int i = 0;
     private List<SelectPronos> selectPronosList;
 
     @Override
@@ -45,17 +50,21 @@ public class StatsActivity extends AppCompatActivity {
                 selectPronosList = response.body().getSelectPronos();
                 for(SelectPronos p : selectPronosList){
                     i++;
-                    if(p.getStatut() == "gagne"){
+                    if(p.getStatut().equals("gagne")){
                         pb_gains_compteur++;
-                        Log.d("NB GAINS : ", String.valueOf(pb_gains_compteur));
                     }
-                    else if(p.getStatut() == "perdu"){
+                    else if(p.getStatut().equals("perdu")){
                         pb_pertes_compteur++;
-                        Log.d("NB PERTES : ", String.valueOf(pb_pertes_compteur));
                     }
                 }
-                pb_gains.setBackgroundColor(Color.GREEN);
-                pb_pertes.setBackgroundColor(Color.RED);
+                float[] hsv = new float[3];
+
+                pb_gains.setMax(selectPronosList.size());
+                pb_gains.setProgressBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
+                pb_gains.getProgressDrawable().setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_IN);
+                pb_pertes.setMax(selectPronosList.size());
+                pb_pertes.setProgressBackgroundTintList(ColorStateList.valueOf(Color.RED));
+                pb_pertes.getProgressDrawable().setColorFilter(Color.RED, PorterDuff.Mode.SRC_IN);
                 pb_gains.setProgress(pb_gains_compteur);
                 pb_pertes.setProgress(pb_pertes_compteur);
 

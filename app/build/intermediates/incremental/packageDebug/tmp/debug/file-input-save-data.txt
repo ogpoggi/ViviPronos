@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Sep 04 11:39:07 CEST 2018
+#Thu Sep 13 16:43:54 CEST 2018
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\INNAX\\Desktop\\Bastien\\ViviPronos\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
