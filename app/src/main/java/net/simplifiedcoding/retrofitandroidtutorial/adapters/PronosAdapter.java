@@ -42,7 +42,6 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
     @Override
     public void onBindViewHolder(@NonNull PronosAdapter.PronosViewHolder holder, int position) {
         Pronos pronos = pronosList.get(position);
-
         holder.textViewEquipe1.setText(pronos.getEquipe1());
         holder.textViewEquipe2.setText(pronos.getEquipe2());
         holder.textViewCote1.setText(String.valueOf(pronos.getCote1()));
@@ -72,7 +71,6 @@ public class PronosAdapter extends RecyclerView.Adapter<PronosAdapter.PronosView
 
         public PronosViewHolder(View itemView, RecyclerViewClickListener listener) {
             super(itemView);
-
             textViewEquipe1 = itemView.findViewById(R.id.textViewEquipe1);
             textViewEquipe2 = itemView.findViewById(R.id.textViewEquipe2);
             textViewCote1 = itemView.findViewById(R.id.textViewCote1);

@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
         String name = editTextName.getText().toString().trim();
+        int admin = 0;
 
         if (email.isEmpty()) {
             editTextEmail.setError("Email is required");
@@ -90,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Call<DefaultResponse> call = RetrofitClient
                 .getInstance()
                 .getApi()
-                .createUser(email, password, name);
+                .createUser(email, password, name, admin);
 
 
         call.enqueue(new Callback<DefaultResponse>() {

@@ -25,7 +25,8 @@ public interface Api {
     Call<DefaultResponse> createUser(
             @Field("email") String email,
             @Field("password") String password,
-            @Field("name") String name
+            @Field("name") String name,
+            @Field("admin") int admin
     );
 
     @FormUrlEncoded
@@ -67,7 +68,8 @@ public interface Api {
             @Field("equipe2") String equipe2,
             @Field("cote1") Float cote1,
             @Field("cote2") Float cote2,
-            @Field("matchNull") String matchNull
+            @Field("matchNull") String matchNull,
+            @Field("resultat") String resultat
     );
 
     @GET("allpronos")

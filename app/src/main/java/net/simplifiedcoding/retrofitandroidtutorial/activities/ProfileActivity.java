@@ -15,12 +15,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.support.v7.widget.Toolbar;
+import android.widget.Toast;
 
 import net.simplifiedcoding.retrofitandroidtutorial.R;
+import net.simplifiedcoding.retrofitandroidtutorial.api.RetrofitClient;
 import net.simplifiedcoding.retrofitandroidtutorial.fragments.HomeFragment;
 import net.simplifiedcoding.retrofitandroidtutorial.fragments.SettingsFragment;
 import net.simplifiedcoding.retrofitandroidtutorial.fragments.UsersFragment;
+import net.simplifiedcoding.retrofitandroidtutorial.models.LoginResponse;
+import net.simplifiedcoding.retrofitandroidtutorial.models.PronosResponse;
+import net.simplifiedcoding.retrofitandroidtutorial.models.User;
 import net.simplifiedcoding.retrofitandroidtutorial.storage.SharedPrefManager;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class ProfileActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -32,15 +41,24 @@ public class ProfileActivity extends AppCompatActivity implements BottomNavigati
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
+        User user = SharedPrefManager.getInstance(this).getUser();
+
         BottomNavigationView navigationView = findViewById(R.id.bottom_nav);
         navigationView.setOnNavigationItemSelectedListener(this);
         btnCreatePronos = (FloatingActionButton) findViewById(R.id.btn_createPronos);
-        btnCreatePronos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                showCreatePronos();
-            }
-        });
+        Toast.makeText(getApplicationContext(),"HEY + "+user.getAdmin(),Toast.LENGTH_SHORT).show();
+        if(user.getAdmin() == 0){
+            btnCreatePronos.setVisibility(View.INVISIBLE);
+        }
+        if(user.getAdmin() == 1) {
+
+            btnCreatePronos.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    showCreatePronos();
+                }
+            });
+        }
         displayFragment(new HomeFragment());
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
@@ -76,6 +94,19 @@ public class ProfileActivity extends AppCompatActivity implements BottomNavigati
                 final String cote2 = et_cote2.getText().toString().trim();
                 final String matchNull = et_matchNull.getText().toString().trim();
                 final String resultat = et_resultat.getText().toString().trim();
+                Call<PronosResponse> call = RetrofitClient
+                        .getInstance().getApi().createPronos(equipe1,equipe2,Float.parseFloat(cote1),Float.parseFloat(cote2),matchNull, resultat);
+                call.enqueue(new Callback<PronosResponse>() {
+                    @Override
+                    public void onResponse(Call<PronosResponse> call, Response<PronosResponse> response) {
+
+                    }
+
+                    @Override
+                    public void onFailure(Call<PronosResponse> call, Throwable t) {
+
+                    }
+                });
             }
         });
         AlertDialog b = dialogBuilder.create();
